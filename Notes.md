@@ -6,4 +6,6 @@
 ## CLASSIC CV METHODS:
 
 1. Goal: Identify the four precise pixel coordinates of the chessboard's corners by identifying its outer boundary
-2. 
+2. Process:
+       - Image converted to greyscale
+       - A Sobel operator, a type of matrix convolution, is applied to calculate the gradient at each pixel, highlighting edges where pixel values change rapidly
