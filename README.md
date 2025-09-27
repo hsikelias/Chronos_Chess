@@ -4,8 +4,10 @@ Chrono Chess is made to record your "over the board" chess games. It records the
 
 
 
+## Project Journey:
 
 
 ## Resources: 
 
 python-chess: https://python-chess.readthedocs.io/en/latest/
+
