@@ -11,4 +11,6 @@
        - Image converted to greyscale
        - A **Sobel operator**, a type of matrix convolution, is applied to calculate the gradient at each pixel, highlighting edges where pixel values change rapidly
        - The **Canny operator** refines these gradients into a binary image showing only edge pixels
+       - The algorithm then finds contours (continuous lines of edge pixels) and looks for a large quadrilateral shape that could be the board's outline
+3. Pros and Cons: This method is extremely fast but requires very clean images. It fails easily if the board's outline is obstructed by pieces, hands, shadows, or other objects
    
